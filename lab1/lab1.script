@@ -1,0 +1,73 @@
+Script started on 2017年03月18日 (週六) 11時05分43秒
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m  mv lab1.script lab1
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m df
+Filesystem     1K-blocks    Used Available Use% Mounted on
+/dev/sda1       11221232 7659088   2969096  73% /
+none                   4       0         4   0% /sys/fs/cgroup
+udev             1009556       4   1009552   1% /dev
+tmpfs             205012    1044    203968   1% /run
+none                5120       0      5120   0% /run/lock
+none             1025044     980   1024064   1% /run/shm
+none              102400      16    102384   1% /run/user
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m df -i
+Filesystem     Inodes  IUsed  IFree IUse% Mounted on
+/dev/sda1      720896 233891 487005   33% /
+none           256261      2 256259    1% /sys/fs/cgroup
+udev           252389    456 251933    1% /dev
+tmpfs          256261    434 255827    1% /run
+none           256261      1 256260    1% /run/lock
+none           256261      6 256255    1% /run/shm
+none           256261     16 256245    1% /run/user
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m git add
+fatal: Not a git repository (or any of the parent directories): .git
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m df
+Filesystem     1K-blocks    Used Available Use% Mounted on
+/dev/sda1       11221232 7659124   2969060  73% /
+none                   4       0         4   0% /sys/fs/cgroup
+udev             1009556       4   1009552   1% /dev
+tmpfs             205012    1044    203968   1% /run
+none                5120       0      5120   0% /run/lock
+none             1025044     980   1024064   1% /run/shm
+none              102400      16    102384   1% /run/user
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m git add lan[Kb1
+fatal: Not a git repository (or any of the parent directories): .git
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m git add lab1.git
+fatal: Not a git repository (or any of the parent directories): .git
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m git add lab1.script
+fatal: Not a git repository (or any of the parent directories): .git
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m git remore[K[Kte add
+fatal: Not a git repository (or any of the parent directories): .git
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m df
+Filesystem     1K-blocks    Used Available Use% Mounted on
+/dev/sda1       11221232 7659124   2969060  73% /
+none                   4       0         4   0% /sys/fs/cgroup
+udev             1009556       4   1009552   1% /dev
+tmpfs             205012    1044    203968   1% /run
+none                5120       0      5120   0% /run/lock
+none             1025044     980   1024064   1% /run/shm
+none              102400      16    102384   1% /run/user
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m df -i
+Filesystem     Inodes  IUsed  IFree IUse% Mounted on
+/dev/sda1      720896 233893 487003   33% /
+none           256261      2 256259    1% /sys/fs/cgroup
+udev           252389    456 251933    1% /dev
+tmpfs          256261    434 255827    1% /run
+none           256261      1 256260    1% /run/lock
+none           256261      6 256255    1% /run/shm
+none           256261     16 256245    1% /run/user
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m git add .
+fatal: Not a git repository (or any of the parent directories): .git
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m git add
+fatal: Not a git repository (or any of the parent directories): .git
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m git lab1 add
+git: 'lab1' is not a git command. See 'git --help'.
+
+Did you mean this?
+	blame
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m git add lab1.script
+fatal: Not a git repository (or any of the parent directories): .git
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m cd l[K/lab1
+bash: cd: /lab1: No such file or directory
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m cd /usr
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m /usr $[00m cd
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m cd /Videos
